@@ -1,0 +1,98 @@
+/*
+ The asterisk (*) is known as the CSS universal selectors.
+ It can be used to select any and all types of elements in an HTML page.
+ This selector is useful when we want to select all the elements on the page.
+*/
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+      display:grid;
+      font-family: Georgia;
+      font-size:20px;
+     
+    }
+header{
+      margin: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width:100%;
+      background-color: #6b6161;  
+    }
+.logo{
+      display:flex;
+      justify-content:center;
+      font-family:cursive;
+    }
+.pizza_logo{
+      height: 100px;
+      width: 100px;
+      overflow:hidden;
+    }
+.nav{
+      display:inline;
+      float:right;
+      padding:0px 10px;
+    }
+.nav li{
+      list-style-type:none;
+      display:inline;
+    }
+.nav li a{
+      text-decoration:none;
+      color:white;
+      padding:0px 15px;
+      
+    }
+main{
+      background:url("../images/pizza.jpg") no-repeat ;
+      background-size:cover;
+      color:white;
+      padding:50px;
+      
+    }
+.About{
+    display:block;
+    float:right;
+    width:700px;
+    margin:0 -10px 0 0;
+    padding: 0px 10px;
+    line-height:1.4;
+    
+      
+    }
+textarea{
+          color:grey;
+    }
+footer{
+    padding:1em 0 0 0;
+    color:white;
+    background:#485456;
+}
+footer .container{
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+footer div{
+    margin:0 2em 0 2em;
+}
+.navf li{
+    list-style-type :none;
+    padding : 5px 0;
+    display:block;
+}
+.navf a{
+    text-decoration: none;
+    color: white;
+    display:inline;
+}
+footer p small{
+    margin:0 2em;
+}
